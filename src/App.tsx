@@ -1,12 +1,21 @@
 import './App.css'
+import Explore from './Explore'
+import Feature from './Feature'
+import Footer from './Footer'
+import Header from './Header'
+import Hero from './Hero'
+import Subscribe from './Subscribe'
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Header />
+      <Hero />
+      <Explore />
+      <Feature />
+      <Subscribe />
+      <Footer />
     </>
   )
 }
