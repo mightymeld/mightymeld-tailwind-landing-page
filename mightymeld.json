@@ -1,6 +1,7 @@
 {
   "run": "npm run dev",
   "run_prettier": true,
+  "prefab_dir": "prefabs",
   "include": [
     "src"
   ],
