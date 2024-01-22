@@ -7,5 +7,6 @@
   ],
   "web_server_url": "http://localhost:5173",
   "editor": "url:vscode://file/%FILENAME:%LINE:%COLUMN",
+  "language_servers": ["tailwindcss"],
   "tailwind": true
 }
