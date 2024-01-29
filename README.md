@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# MightyMeld Tailwind Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A boilerplate project for quickly setting up an application using React and Tailwind with MightyMeld.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Follow these steps to set up and start using the boilerplate:
 
-## Expanding the ESLint configuration
+1. **Clone the Repository**: 1. Clone this template using [degit](https://github.com/Rich-Harris/degit), change "landing-page" with your own project name <br />
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+   ```bash
+    npx degit mightymeld/mightymeld-tailwind-landing-page "landing-page"
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+2. Run `npm install` to install depenendencies.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. Download a mightymeld.secrets file from the [MightyMeld Portal](https://mightymeld.app/instances) and place it in your project root 
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+4. Run `npx mightymeld` to launch MightyMeld studio in a browser tab.
+
+
+## Running the app without MightyMeld
+
+1. Type `npm install` to install dependencies.
+
+2. Run `npm run dev`, the app should then appear in a browser tab on [localhost:5173](localhost:5173)
+
+## Using Another Package Manager
+
+If you would like to use an alternative package manager like yarn or pnpm, make sure to also update the run command in your mightymeld.json file
