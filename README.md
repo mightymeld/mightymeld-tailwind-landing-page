@@ -6,18 +6,11 @@ A boilerplate project for quickly setting up an application using React and Tail
 
 Follow these steps to set up and start using the boilerplate:
 
-1. **Clone the Repository**: 1. Clone this template using [degit](https://github.com/Rich-Harris/degit), change "landing-page" with your own project name <br />
+1. Run `npm install` to install depenendencies.
 
-   ```bash
-    npx degit mightymeld/mightymeld-tailwind-landing-page "landing-page"
-   ```
+2. Run `npx mightymeld secrets` to download a `mightymeld.secrets` file.
 
-2. Run `npm install` to install depenendencies.
-
-3. Download a mightymeld.secrets file from the [MightyMeld Portal](https://mightymeld.app/instances) and place it in your project root 
-
-4. Run `npx mightymeld` to launch MightyMeld studio in a browser tab.
-
+3. Run `npx mightymeld` to launch MightyMeld studio in a browser tab.
 
 ## Running the app without MightyMeld
 
