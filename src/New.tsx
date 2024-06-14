@@ -2,7 +2,7 @@ import React from 'react'
 
 const New = () => {
   return (
-    <div>Hello Friend</div>
+    <div>Back again</div>
   )
 }
 
