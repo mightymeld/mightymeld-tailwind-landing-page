@@ -6,7 +6,7 @@ const Hero = () => {
                     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-slate-800 font-extrabold leading-7 md:leading-10">
                         Elevate your web development experience with Tailwind Prefabs
                     </h1>
-                    <p className="mt-5 sm:mt-10 lg:w-10/12 text-slate-500 font-normal text-center text-sm sm:text-lg">The seamless component building blocks for effortlessly crafting your perfect web applications </p>
+                    <p className="mt-5 sm:mt-10 lg:w-10/12 text-slate-500 font-normal text-center text-sm sm:text-lg">The seamless component building blocks for effortlessly crafting your perfect web application </p>
                 </div>
                 <div className="flex justify-center items-center">
                     <button className="  bg-sky-700 transition duration-150 ease-in-out hover:bg-sky-600 lg:text-xl lg:font-bold  rounded text-white px-4 sm:px-10 py-2 sm:py-4 text-sm">Get Started</button>
