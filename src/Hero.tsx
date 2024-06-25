@@ -11,10 +11,14 @@ const Hero = () => {
             your perfect web applications
           </p>
           <div>
-            <label>
-              Hello World
-              {1 + 1}
+            <label>Hello World
+
             </label>
+            <p>My Name is Jackson
+              {true && <h2>
+                {1 + 9}
+              </h2>}
+            </p>
           </div>
         </div>
         <div className="flex justify-center items-center">
